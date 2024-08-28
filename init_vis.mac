@@ -1,0 +1,24 @@
+#/tracking/verbose 2
+
+# Change the default number of workers (in multi-threading mode) 
+#
+/run/numberOfThreads 4
+
+# Geometry Setups
+#
+/Bremss/Geometry/SetTargetXYDim    1. cm
+/Bremss/Geometry/SetTargetZDim     0.5 cm
+
+# Physics
+#
+/process/em/setSecBiasing eBrem physWorld 200 100 MeV
+#/process/em/setBiasingFactor eBrem 200 true
+
+# Initialize kernel
+#
+/run/geometryModified
+/run/initialize
+
+#
+# Visualization setting
+/control/execute vis.mac

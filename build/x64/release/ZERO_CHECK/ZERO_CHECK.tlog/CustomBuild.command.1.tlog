@@ -1,0 +1,10 @@
+^C:\USERS\CARBON\DESKTOP\G4-BREMSSTRAHLUNG\BUILD\CMAKEFILES\CDAD59AE217045D9C4D3EC894823B640\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/CARBON/Desktop/G4-Bremsstrahlung -BC:/Users/CARBON/Desktop/G4-Bremsstrahlung/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/Simulation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

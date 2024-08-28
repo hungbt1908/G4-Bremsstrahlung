@@ -1,0 +1,4 @@
+C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/CMakeFiles/sim.dir
+C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/CMakeFiles/Simulation.dir
+C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/CMakeFiles/ZERO_CHECK.dir

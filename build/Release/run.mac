@@ -1,0 +1,16 @@
+# Change the default number of workers (in multi-threading mode) 
+/run/numberOfThreads 8
+
+# Geometry Setups
+/Bremss/Geometry/SetTargetXYDim    10.0 mm
+/Bremss/Geometry/SetTargetZDim     1.0 mm
+
+# Physics
+/process/em/setBiasingFactor eBrem 200 true
+
+# Initialize kernel
+/run/initialize
+
+# Run application
+/run/printProgress 1
+/run/beamOn 1000000

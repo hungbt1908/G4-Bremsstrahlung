@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CARBON\Desktop\G4-Bremsstrahlung\build\CMakeFiles\cdad59ae217045d9c4d3ec894823b640\Simulation.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CARBON\Desktop\G4-Bremsstrahlung\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\CARBON\Desktop\G4-Bremsstrahlung\build\CMakeFiles\Simulation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{010696B2-4FF1-3E6A-BC7B-A4D399845ED7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\CARBON\DESKTOP\G4-BREMSSTRAHLUNG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/CARBON/Desktop/G4-Bremsstrahlung -BC:/Users/CARBON/Desktop/G4-Bremsstrahlung/build --check-stamp-file C:/Users/CARBON/Desktop/G4-Bremsstrahlung/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
